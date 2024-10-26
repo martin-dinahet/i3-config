@@ -75,11 +75,10 @@ bar {
           background #282c34
           statusline #abb2bf
           separator #666666
-          #focused_workspace #61afef
-          #active_workspace #98c379
-          #inactive_workspace #5c6370
-          #urgent_workspace #e06c75
         }
 }
 
 for_window [class=".*"] border pixel 0
+
+assign [class="firefox"] $ws2
+assign [class="obsidian"] $ws3
